@@ -27,7 +27,7 @@ export default function BMICheck() {
         </p>
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr minmax(260px, 340px)", gap: 32, alignItems: "start" }}>
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_340px] gap-8 items-start">
         {/* Form */}
         <div className="card">
           <h2 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, fontSize: "1.1rem", marginBottom: 24 }}>
@@ -55,7 +55,7 @@ export default function BMICheck() {
         </div>
 
         {/* Sidebar Info */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+        <div className="flex flex-col gap-5 relative md:sticky md:top-20">
           {/* BMI Table */}
           <div className="card">
             <h3 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, fontSize: "0.95rem", marginBottom: 16 }}>
