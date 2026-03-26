@@ -40,7 +40,7 @@ export default function FoodLog() {
       </div>
 
       {/* Main Grid */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 340px", gap: 24, alignItems: "start" }}>
+      <div style={{ alignItems: "start" }} className="grid grid-cols-1 md:grid-cols-[1fr_340px] gap-6">
         {/* Left: Search + Log */}
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
           {/* Food Search */}
@@ -61,7 +61,7 @@ export default function FoodLog() {
         </div>
 
         {/* Right: Summary & Charts */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 20, position: "sticky", top: 80 }}>
+        <div className="flex flex-col gap-5 relative md:sticky md:top-20">
           {/* Calorie Donut */}
           <div className="card" style={{ textAlign: "center" }}>
             <h3 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, fontSize: "0.95rem", marginBottom: 20, textAlign: "left" }}>

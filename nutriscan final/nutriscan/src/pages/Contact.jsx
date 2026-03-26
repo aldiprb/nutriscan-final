@@ -22,7 +22,7 @@ export default function Contact() {
         </p>
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 340px", gap: 32, alignItems: "start" }}>
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_340px] gap-8 items-start">
         {/* Form */}
         <div className="card">
           {sent ? (
@@ -87,7 +87,7 @@ export default function Contact() {
         </div>
 
         {/* Info Sidebar */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+        <div className="flex flex-col gap-4">
           <div className="card">
             <h3 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, fontSize: "0.95rem", marginBottom: 16 }}>
               Info Kontak

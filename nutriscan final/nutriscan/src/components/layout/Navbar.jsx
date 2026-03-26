@@ -67,7 +67,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Links */}
-        <div style={{ display: "flex", gap: 4 }} className="hidden md:flex">
+        <div style={{gap: 4 }} className="hidden md:flex">
           {links.map((l) => (
             <Link
               key={l.to}
@@ -99,7 +99,7 @@ export default function Navbar() {
             cursor: "pointer",
             padding: 4,
           }}
-          className="md:hidden"
+          className="flex md:hidden"
         >
           <svg width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2">
             {open ? (
