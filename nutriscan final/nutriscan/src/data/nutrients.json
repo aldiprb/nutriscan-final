@@ -1,0 +1,8 @@
+[
+  { "id": "smp_male", "age_group": "SMP", "age_range": [12, 15], "gender": "male", "label": "SMP Laki-laki (12–15 th)", "daily_needs": { "calories": 2400, "protein": 65, "carbs": 340, "fat": 80, "fiber": 35 } },
+  { "id": "smp_female", "age_group": "SMP", "age_range": [12, 15], "gender": "female", "label": "SMP Perempuan (12–15 th)", "daily_needs": { "calories": 2050, "protein": 60, "carbs": 290, "fat": 70, "fiber": 30 } },
+  { "id": "sma_male", "age_group": "SMA", "age_range": [16, 18], "gender": "male", "label": "SMA Laki-laki (16–18 th)", "daily_needs": { "calories": 2650, "protein": 75, "carbs": 370, "fat": 89, "fiber": 38 } },
+  { "id": "sma_female", "age_group": "SMA", "age_range": [16, 18], "gender": "female", "label": "SMA Perempuan (16–18 th)", "daily_needs": { "calories": 2100, "protein": 65, "carbs": 300, "fat": 71, "fiber": 32 } },
+  { "id": "mahasiswa_male", "age_group": "Mahasiswa", "age_range": [19, 25], "gender": "male", "label": "Mahasiswa Laki-laki (19–25 th)", "daily_needs": { "calories": 2725, "protein": 80, "carbs": 375, "fat": 91, "fiber": 38 } },
+  { "id": "mahasiswa_female", "age_group": "Mahasiswa", "age_range": [19, 25], "gender": "female", "label": "Mahasiswi Perempuan (19–25 th)", "daily_needs": { "calories": 2250, "protein": 65, "carbs": 325, "fat": 75, "fiber": 32 } }
+]
